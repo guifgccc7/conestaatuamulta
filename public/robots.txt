@@ -9,4 +9,4 @@ Disallow: /checkout/
 Disallow: /documents/
 Disallow: /auth/
 
-Sitemap: https://conestaatuamulta.pt/sitemap.xml
+Sitemap: https://conestaatuamulta-production.up.railway.app/sitemap.xml
