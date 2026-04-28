@@ -17,7 +17,7 @@ export function generateParkingMinuta(data: WizardFormData): string {
 
   // Use the specific parking entity when available (EMEL, SMTUC, etc.)
   const entityForRouting =
-    d.parkingEntity && d.parkingEntity !== "OTHER"
+    d.parkingEntity && d.parkingEntity !== "Outro"
       ? d.parkingEntity
       : (data.fineEntity ?? "Câmara Municipal");
 

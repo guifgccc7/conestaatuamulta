@@ -33,8 +33,9 @@ export function buildCaseContext(
   // Fine type
   const fineType = FINE_TYPE_LABELS[state.fineType.fineCategory ?? ""] ?? "Não especificado";
   lines.push(`**Tipo de infração:** ${fineType}`);
-  if (state.fineType.fineSubCategory) {
-    lines.push(`**Subcategoria:** ${state.fineType.fineSubCategory}`);
+  const fineSubCategory = state.fineType.speedingSubtype ?? state.fineType.parkingSubtype;
+  if (fineSubCategory) {
+    lines.push(`**Subcategoria:** ${fineSubCategory}`);
   }
 
   // Fine details

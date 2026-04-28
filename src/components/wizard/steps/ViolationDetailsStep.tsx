@@ -12,7 +12,7 @@ export function ViolationDetailsStep({ caseType, data, onChange }: Props) {
   const d = data as Record<string, unknown> | undefined;
 
   const set = (key: string, val: unknown) =>
-    onChange({ ...(d ?? {}), [key]: val } as SpeedingData);
+    onChange({ ...(d ?? {}), [key]: val } as unknown as SpeedingData);
 
   switch (caseType) {
     case "SPEEDING":
