@@ -21,8 +21,6 @@ import { withDb }     from "@/lib/db";
 import { logger, AUDIT } from "@/lib/logger";
 import Stripe from "stripe";
 
-export const config = { api: { bodyParser: false } };
-
 // ─── DB-backed idempotency guard ──────────────────────────────────────────────
 //
 // Uses the ProcessedWebhookEvent table (unique PK = Stripe event ID).
