@@ -46,8 +46,12 @@ function validate() {
   }
 }
 
-// Run immediately on import (server-side only)
-if (typeof window === "undefined") {
+// Run immediately on import (server-side only).
+// Skip during the Next.js production *build* phase: page data collection
+// instantiates route modules under NODE_ENV=production, but the runtime
+// env vars (DATABASE_URL, secrets) are only injected at deploy time.
+const IS_BUILD_PHASE = process.env.NEXT_PHASE === "phase-production-build";
+if (typeof window === "undefined" && !IS_BUILD_PHASE) {
   validate();
 }
 
