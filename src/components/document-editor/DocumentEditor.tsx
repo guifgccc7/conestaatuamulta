@@ -161,6 +161,7 @@ export function DocumentEditor({
                 isEditing={editor.editingId === section.id}
                 isEdited={editor.editedIds.has(section.id)}
                 isPaid={isPaid}
+                aiOutput={aiOutput}
                 onStartEdit={() => editor.startEdit(section.id)}
                 onCommit={(text) => editor.commitEdit(section.id, text)}
                 onCancel={() => editor.cancelEdit(section.id)}
@@ -301,6 +302,7 @@ function SectionBlock({
   isEditing,
   isEdited,
   isPaid,
+  aiOutput,
   onStartEdit,
   onCommit,
   onCancel,
@@ -313,6 +315,7 @@ function SectionBlock({
   isEditing:   boolean;
   isEdited:    boolean;
   isPaid:      boolean;
+  aiOutput?:   AiOutput | null;
   onStartEdit: () => void;
   onCommit:    (text: string) => void;
   onCancel:    () => void;
