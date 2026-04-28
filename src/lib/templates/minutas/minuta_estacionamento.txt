@@ -1,0 +1,285 @@
+================================================================================
+MINUTA DE IMPUGNAÇÃO JUDICIAL DE COIMA — ESTACIONAMENTO / PARAGEM PROIBIDA
+Regime Geral das Contraordenações e Coimas (DL n.º 433/82, de 27 de outubro)
+================================================================================
+
+                          IMPUGNAÇÃO JUDICIAL
+
+                  Processo n.º: {{numero_processo}}
+                  Auto n.º:     {{numero_auto}}
+
+================================================================================
+
+Exmo. Senhor Presidente do Tribunal de Instrução Criminal de {{comarca}}
+[Em alternativa, se ainda em fase administrativa: À Entidade Autuante — {{entidade_autuante}}]
+
+--------------------------------------------------------------------------------
+
+{{nome_completo}}, natural de {{naturalidade}}, portador/a do Cartão de Cidadão
+n.º {{numero_cc}}, válido até {{validade_cc}}, titular do NIF n.º {{nif}},
+residente em {{morada_completa}}, {{codigo_postal}} {{localidade}},
+telefone: {{telefone}}, email: {{email}},
+
+vem, ao abrigo dos artigos 59.º e seguintes do Decreto-Lei n.º 433/82, de
+27 de outubro (Regime Geral das Contraordenações e Coimas — RGCO), apresentar
+
+                        IMPUGNAÇÃO JUDICIAL
+
+do Auto de Contraordenação n.º {{numero_auto}}, de {{data_auto}}, lavrado pela
+{{entidade_autuante}}, que lhe imputa a prática de infração ao Código da Estrada
+no que respeita ao estacionamento/paragem do veículo de matrícula {{matricula}},
+com base nos seguintes fundamentos:
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+I. IDENTIFICAÇÃO E ENQUADRAMENTO
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. O/A arguido/a é o/a titular registado/a do veículo automóvel de matrícula
+   {{matricula}}, {{marca_modelo}}, conforme resulta do DUA junto como Doc. 1.
+
+2. O auto de contraordenação n.º {{numero_auto}}, datado de {{data_infracao}}
+   às {{hora_infracao}} horas, imputa ao/à arguido/a a infração p. e p. pelo(s)
+   artigo(s) {{artigos_violados}} do Código da Estrada (CE), por alegada
+   infração de {{tipo_infracao_estacionamento}}
+   [ex: estacionamento proibido / em segunda fila / sobre o passeio /
+   em lugar reservado / sem dístico de residente], na {{local_infracao}},
+   {{municipio}}.
+
+3. A coima aplicada é de €{{valor_coima}}, acrescida de €{{custas}} de custas,
+   com sanção acessória de {{sancao_acessoria}} pontos no título de condução
+   (se aplicável).
+
+4. O/A arguido/a não aceita a imputação efetuada pelos fundamentos seguintes:
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+II. EXPOSIÇÃO DOS FACTOS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+5. Na data e hora indicadas no auto, o veículo de matrícula {{matricula}}
+   encontrava-se estacionado / parado em {{local_infracao}}, {{municipio}}.
+
+6. {{descricao_livre_dos_factos}}
+   [ex: "O veículo encontrava-se estacionado de acordo com as regras aplicáveis
+   no local, não existindo qualquer sinalização visível que proibisse o
+   estacionamento no trecho em causa."]
+
+7. [Acrescentar factos concretos relevantes, como ausência de sinalização,
+   urgência da paragem, validade de dístico, etc.]
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+III. FUNDAMENTAÇÃO JURÍDICA
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+────────────────────────────────────────────────────────────────────────────────
+[FUNDAMENTO A — SELECIONAR SE APLICÁVEL]
+A.1 AUSÊNCIA OU DEFICIÊNCIA DA SINALIZAÇÃO DE PROIBIÇÃO
+────────────────────────────────────────────────────────────────────────────────
+
+8. A proibição de estacionamento no local indicado no auto — {{local_infracao}}
+   — não se encontrava assinalada por qualquer sinal vertical ou marcação
+   horizontal que cumprisse os requisitos técnicos e de visibilidade exigidos
+   pelo Regulamento de Sinalização do Trânsito (RST), aprovado pelo Decreto-Lei
+   n.º 22-A/98, de 20 de janeiro, e pela Portaria n.º 1538/2004, de 31 de
+   dezembro.
+
+9. Nos termos do artigo 3.º, n.º 1 do RST e do artigo 13.º, n.º 1 do Código da
+   Estrada, os sinais de trânsito só produzem efeitos jurídicos vinculativos
+   para os utentes da via quando visíveis, devidamente colocados e conformes
+   às especificações técnicas legalmente estabelecidas.
+
+10. Concretamente, no local da alegada infração:
+    [Selecionar o que se aplicar:]
+    — Não existia qualquer sinal vertical de proibição de estacionamento;
+    — O sinal existente estava obstruído por {{obstrucao}} (vegetação / obras /
+      publicidade / outros), não sendo percetível para o condutor médio;
+    — A marcação horizontal estava apagada / deteriorada / impercetível;
+    — O sinal encontrava-se a {{distancia}} metros do local de estacionamento,
+      não cobrindo o trecho em causa.
+
+11. A proibição de estacionar não pode ser presumida, dependendo sempre de
+    sinalização clara, visível e legalmente adequada. Verificando-se a sua
+    ausência ou deficiência, não pode a infração ser imputada ao condutor —
+    cf. artigo 48.º, n.º 1 do Código da Estrada.
+
+────────────────────────────────────────────────────────────────────────────────
+[FUNDAMENTO B — SELECIONAR SE APLICÁVEL]
+B.1 PARAGEM DE EMERGÊNCIA / FORÇA MAIOR / NECESSIDADE URGENTE
+────────────────────────────────────────────────────────────────────────────────
+
+12. A paragem ou estacionamento do veículo de matrícula {{matricula}} no local
+    em causa não resultou de qualquer vontade de infringir as regras do Código
+    da Estrada, mas decorreu de circunstância de emergência/força maior que
+    tornou inevitável a imobilização do veículo, a saber:
+    {{descricao_emergencia}}
+    [ex: súbita avaria mecânica que imobilizou o veículo / mal-estar físico do
+    condutor que exigiu paragem imediata / urgência médica de passageiro /
+    acidente que bloqueou a circulação].
+
+13. O artigo 49.º, n.º 2 do Código da Estrada expressamente dispõe que "as
+    disposições sobre paragem e estacionamento não se aplicam quando a paragem
+    ou o estacionamento for imposto por circunstâncias alheias à vontade do
+    condutor, como avaria, acidente ou cumprimento de ordem de autoridade
+    policial."
+
+14. Acresce que a culpa constitui elemento essencial da contraordenação (art. 8.º
+    do RGCO), sendo que, verificada a força maior, não pode o/a arguido/a ser
+    responsabilizado/a pela mera materialidade da posição do veículo.
+
+15. O/A arguido/a adotou, tão rapidamente quanto possível, as medidas necessárias
+    para remover o veículo do local, nomeadamente {{medidas_adotadas}}.
+
+────────────────────────────────────────────────────────────────────────────────
+[FUNDAMENTO C — SELECIONAR SE APLICÁVEL]
+C.1 TITULAR DE CARTÃO DE ESTACIONAMENTO PARA PESSOAS COM DEFICIÊNCIA
+────────────────────────────────────────────────────────────────────────────────
+
+16. O/A arguido/a é portador/a do Cartão Europeu de Estacionamento para Pessoas
+    com Deficiência, emitido por {{entidade_emissora}}, com o n.º {{numero_cartao}},
+    válido até {{validade_cartao}}, emitido ao abrigo do Decreto-Lei n.º 307/2003,
+    de 10 de dezembro, e da Portaria n.º 1rehearse/2003.
+    [Junta-se cópia como Doc. n.º {{num_doc}}.]
+
+17. Nos termos do artigo 117.º do Código da Estrada e do artigo 3.º do DL n.º
+    307/2003, os veículos conduzidos por ou transportando pessoas com deficiência
+    titulares do referido cartão ficam isentos de diversas restrições de
+    estacionamento, desde que o cartão esteja devidamente exibido no veículo.
+
+18. O cartão de estacionamento encontrava-se visível no tablier do veículo no
+    momento da autuação, pelo que o estacionamento efetuado era legal ao abrigo
+    do estatuto especial do/a arguido/a.
+
+────────────────────────────────────────────────────────────────────────────────
+[FUNDAMENTO D — SELECIONAR SE APLICÁVEL]
+D.1 VÍCIO DA NOTIFICAÇÃO — FALTA DE ELEMENTOS OBRIGATÓRIOS
+────────────────────────────────────────────────────────────────────────────────
+
+19. A notificação recebida pelo/a arguido/a não cumpre os requisitos legalmente
+    exigidos pelos artigos 70.º e 79.º do RGCO, porquanto:
+    [Selecionar os aplicáveis:]
+    — Não indica expressamente o prazo para apresentação de defesa;
+    — Não identifica a norma punitiva aplicável (tipo legal e coima mínima/máxima);
+    — Não contém a descrição suficientemente concreta dos factos imputados;
+    — Não foi colocado talão / aviso no veículo no momento da autuação, em
+      violação do artigo 169.º, n.º 1, alínea f) do CE;
+    — Foi enviada para endereço incorreto, não correspondendo à morada constante
+      do Registo de Veículos / Conservatória.
+
+20. A nulidade da notificação determina a ineficácia do ato notificatório e,
+    por conseguinte, a impossibilidade de cômputo de qualquer prazo processual
+    em desfavor do/a arguido/a, nos termos do artigo 77.º do CPA, aplicável por
+    remissão do artigo 41.º do RGCO.
+
+────────────────────────────────────────────────────────────────────────────────
+[FUNDAMENTO E — SELECIONAR SE APLICÁVEL]
+E.1 INCOMPETÊNCIA DA ENTIDADE AUTUANTE / EXCESSO DE PODERES
+────────────────────────────────────────────────────────────────────────────────
+
+21. A {{entidade_autuante}} procedeu à autuação no local {{local_infracao}},
+    sendo que tal local não se integra na área de jurisdição / concessão
+    atribuída àquela entidade.
+
+22. Com efeito, a competência para fiscalização do estacionamento em tal trecho
+    de via pública pertence a {{entidade_competente}}, nos termos do
+    {{diploma_competencia}} [ex: contrato de concessão / deliberação municipal /
+    DL n.º 44/2002, de 2 de março].
+
+23. A autuação efetuada por entidade incompetente em razão da matéria ou do
+    território constitui nulidade insuprível nos termos do artigo 133.º, n.º 2,
+    alínea b) do Código do Procedimento Administrativo (CPA), aplicável por
+    força do artigo 41.º do RGCO.
+
+────────────────────────────────────────────────────────────────────────────────
+[FUNDAMENTO F — SELECIONAR SE APLICÁVEL]
+F.1 PRESCRIÇÃO DO PROCEDIMENTO CONTRAORDENACIONAL
+────────────────────────────────────────────────────────────────────────────────
+
+24. A infração alegada ocorreu em {{data_infracao}}. A decisão condenatória
+    foi notificada ao/à arguido/a em {{data_notificacao}}, após decorrido o prazo
+    de prescrição previsto no artigo 27.º, alínea b), do RGCO.
+
+25. Para a contraordenação em causa, punível com coima máxima de €{{coima_maxima}},
+    o prazo de prescrição é de {{prazo_prescricao}}, não se verificando nos autos
+    qualquer causa de interrupção ou suspensão da prescrição (art. 28.º e 29.º
+    do RGCO) que possa justificar o prolongamento daquele prazo.
+
+26. Verificada a prescrição, deve o procedimento ser arquivado com absolvição do/a
+    arguido/a, ao abrigo do artigo 63.º, n.º 1, alínea a), do RGCO.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+IV. MEIOS DE PROVA
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+27. Requer-se a produção dos seguintes meios de prova:
+
+    a) PROVA DOCUMENTAL:
+       — DUA do veículo {{matricula}} [Doc. 1]
+       — Fotografias do local tiradas em {{data_fotografias}}, demonstrando a
+         ausência / deficiência de sinalização [Doc. 2]
+       — Cartão de estacionamento para pessoas com deficiência (se aplicável) [Doc. 3]
+       — Comprovativo de avaria / assistência em viagem (se aplicável) [Doc. 4]
+       — {{outros_documentos}}
+
+    b) PROVA TESTEMUNHAL:
+       — {{nome_testemunha_1}}, residente em {{morada_testemunha_1}},
+         que presenciou o estacionamento e as condições do local
+       — {{nome_testemunha_2}}, residente em {{morada_testemunha_2}}
+
+    c) INSPEÇÃO AO LOCAL (se aplicável):
+       — Requer-se a realização de inspeção judicial ao local {{local_infracao}}
+         para verificação da sinalização existente.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+V. PEDIDO
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+28. Nestes termos, requer a V. Ex.ª que se digne:
+
+    PRIMEIRO — Admitir a presente impugnação, designando data para audiência;
+
+    SEGUNDO — Determinar a notificação da entidade autuante para juntar:
+              a) Fotografia(s) que serviram de suporte à autuação;
+              b) Registo do agente autuante com identificação funcional;
+              c) Documentação comprovativa da sinalização existente no local
+                 à data da alegada infração;
+
+    TERCEIRO — Julgar a impugnação PROCEDENTE e, em consequência:
+              a) Absolver o/a arguido/a da contraordenação imputada; ou
+              b) Declarar a nulidade do auto de contraordenação; ou ainda,
+              c) Subsidiariamente, reduzir a coima ao mínimo legal (art. 18.º
+                 e 72.º-A do RGCO), atendendo à situação económica do/a arguido/a,
+                 à ausência de antecedentes e à leveza do ilícito;
+
+    QUARTO — Condenar a entidade autuante nas custas processuais.
+
+    Pede deferimento,
+
+{{localidade}}, {{data_submissao}}
+
+_____________________________________________
+(assinatura)
+{{nome_completo}}
+NIF: {{nif}} | CC/BI: {{numero_cc}}
+Morada: {{morada_completa}}, {{codigo_postal}} {{localidade}}
+Tel.: {{telefone}} | Email: {{email}}
+
+================================================================================
+DOCUMENTOS JUNTOS:
+Doc. 1 — Documento Único Automóvel (matrícula {{matricula}})
+Doc. 2 — {{descricao_doc_2}}
+Doc. 3 — {{descricao_doc_3}}
+{{lista_documentos_adicionais}}
+================================================================================
+
+[NOTA DE PREENCHIMENTO — REMOVER ANTES DE ENVIAR]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Prazo:    15 dias úteis a contar da notificação (art. 59.º, n.º 3 RGCO)
+Entrega:  Tribunal de Instrução Criminal competente (art. 61.º RGCO)
+          Para multas EMEL: impugnação prévia à EMEL (15 dias) antes do TIC
+Custas:   Tabela do RCP — DL n.º 34/2008, de 26 de fevereiro
+Remover TODOS os fundamentos inaplicáveis ao caso concreto antes de enviar.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

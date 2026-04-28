@@ -1,0 +1,20 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "conestaatuamulta (Next.js)",
+      "runtimeExecutable": "/usr/bin/env",
+      "runtimeArgs": [
+        "PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin",
+        "NODE_PATH=/usr/local/lib/node_modules",
+        "/usr/local/Cellar/node/25.9.0/bin/node",
+        "/Users/Gui/Desktop/conestaatuamulta/node_modules/next/dist/bin/next",
+        "dev",
+        "/Users/Gui/Desktop/conestaatuamulta",
+        "--port", "3000"
+      ],
+      "port": 3000,
+      "autoPort": true
+    }
+  ]
+}

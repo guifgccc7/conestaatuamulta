@@ -1,0 +1,278 @@
+================================================================================
+MINUTA DE IMPUGNAÇÃO JUDICIAL DE COIMA — EXCESSO DE VELOCIDADE
+Regime Geral das Contraordenações e Coimas (DL n.º 433/82, de 27 de outubro)
+================================================================================
+
+                          IMPUGNAÇÃO JUDICIAL
+
+                  Processo n.º: {{numero_processo}} (se conhecido)
+                  Auto n.º:     {{numero_auto}}
+
+================================================================================
+
+Exmo. Senhor Presidente do Tribunal de Instrução Criminal de {{comarca}}
+[Em alternativa, se ainda em fase administrativa: À Entidade Autuante — {{entidade_autuante}}]
+
+--------------------------------------------------------------------------------
+
+{{nome_completo}}, natural de {{naturalidade}}, de nacionalidade portuguesa,
+portador/a do Bilhete de Identidade / Cartão de Cidadão n.º {{numero_cc}},
+com validade até {{validade_cc}}, titular do NIF n.º {{nif}},
+com domicílio em {{morada_completa}}, {{codigo_postal}} {{localidade}},
+contacto telefónico: {{telefone}}, endereço de correio eletrónico: {{email}},
+na qualidade de arguido/a no processo de contraordenação identificado em epígrafe,
+vem, nos termos e para os efeitos do disposto nos artigos 59.º e seguintes do
+Decreto-Lei n.º 433/82, de 27 de outubro (Regime Geral das Contraordenações e
+Coimas — doravante RGCO), apresentar a presente
+
+                        IMPUGNAÇÃO JUDICIAL
+
+da decisão administrativa que lhe imputou a prática de contraordenação
+nos termos infra expostos, e isto com base nos seguintes fundamentos de
+facto e de direito:
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+I. IDENTIFICAÇÃO E ENQUADRAMENTO
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. O/A arguido/a é titular do veículo automóvel ligeiro de passageiros com a
+   matrícula {{matricula}}, {{marca_modelo}}, conforme resulta do respetivo
+   Documento Único Automóvel (DUA), que se junta como Documento n.º 1.
+
+2. Nos termos do Auto de Contraordenação n.º {{numero_auto}}, datado de
+   {{data_infracao}} às {{hora_infracao}} horas, lavrado pela entidade autuante
+   {{entidade_autuante}}, é imputada ao/à arguido/a a infração prevista e punida
+   pelo artigo 24.º do Código da Estrada (CE), por alegada circulação à velocidade
+   de {{velocidade_registada}} km/h em local onde o limite máximo legal seria de
+   {{limite_legal}} km/h, na via {{local_infracao}}.
+
+3. A entidade autuante alega que o equipamento de medição utilizado foi o seguinte:
+   {{tipo_equipamento}} (n.º de série: {{numero_serie_equipamento}}).
+
+4. O/A arguido/a não se conforma com tal decisão, porquanto:
+   [ver fundamentos infra — selecionar os aplicáveis ao caso concreto]
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+II. EXPOSIÇÃO DOS FACTOS CONTROVERTIDOS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+5. Na data e hora referidas no auto, o/a arguido/a circulava no veículo de
+   matrícula {{matricula}} na via {{local_infracao}}, {{municipio}}.
+
+6. {{descricao_livre_dos_factos}}
+   [ex: "A velocidade de circulação era adequada às condições da via, ao tráfego
+   existente e não excedia qualquer limite legalmente estabelecido e devidamente
+   sinalizado no local."]
+
+7. [Acrescentar quaisquer factos específicos relevantes para a defesa concreta]
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+III. FUNDAMENTAÇÃO JURÍDICA
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+────────────────────────────────────────────────────────────────────────────────
+[FUNDAMENTO A — SELECIONAR SE APLICÁVEL]
+A.1 FALTA OU INSUFICIÊNCIA DE PROVA — PRINCÍPIO IN DUBIO PRO REO
+────────────────────────────────────────────────────────────────────────────────
+
+8. O auto de contraordenação não é acompanhado de qualquer registo fotográfico,
+   filmagem ou outro suporte documental que permita, de forma objetiva e
+   inequívoca, comprovar a velocidade alegadamente registada de {{velocidade_registada}}
+   km/h atribuída ao veículo de matrícula {{matricula}}.
+
+9. No processo contraordenacional, o ónus da prova recai sobre a autoridade
+   administrativa que imputa a infração, e não sobre o arguido — princípio
+   consagrado, por analogia, no artigo 32.º, n.º 2 da Constituição da
+   República Portuguesa (CRP), aplicável ao direito contraordenacional por
+   força do artigo 41.º do RGCO.
+
+10. Conforme decorre do acórdão do Tribunal da Relação de Coimbra de 04/03/2015
+    (proc. n.º 52/14.8T8VIS.C1): "O auto de contraordenação não tem valor de prova
+    plena, podendo ser ilidido por prova em contrário, devendo a autoridade
+    administrativa demonstrar, com suficiência, a prática da infração."
+
+11. Perante a ausência ou insuficiência de prova objetiva, o princípio
+    in dubio pro reo — corolário do princípio da presunção de inocência (art.
+    32.º, n.º 2 CRP; art. 50.º RGCO) — impõe que qualquer dúvida seja resolvida
+    em favor do/a arguido/a, determinando a sua absolvição.
+
+────────────────────────────────────────────────────────────────────────────────
+[FUNDAMENTO B — SELECIONAR SE APLICÁVEL]
+B.1 VÍCIO DO EQUIPAMENTO DE MEDIÇÃO — FALTA DE VERIFICAÇÃO METROLÓGICA
+────────────────────────────────────────────────────────────────────────────────
+
+12. Os equipamentos utilizados para medição de velocidade estão sujeitos a
+    verificação metrológica periódica obrigatória, nos termos do Decreto-Lei
+    n.º 291/90, de 20 de setembro (Metrologia Legal), da Portaria n.º 1504/2008,
+    de 22 de dezembro, e do Decreto-Lei n.º 71/2012, de 21 de março.
+
+13. Tal verificação é condição de validade dos resultados de medição obtidos
+    pelo equipamento, sendo legalmente exigível que:
+    a) O certificado de verificação periódica esteja válido à data da fiscalização;
+    b) O equipamento seja do modelo aprovado e homologado pelo Instituto Português
+       da Qualidade (IPQ / IPAC);
+    c) A verificação metrológica tenha sido efetuada dentro do prazo regulamentar.
+
+14. O auto de contraordenação n.º {{numero_auto}} não especifica:
+    — O número de série do equipamento;
+    — A data da última verificação periódica;
+    — O número do certificado de verificação;
+    — A margem de erro aplicada (e se foi deduzida ao valor registado).
+
+15. A omissão destes elementos impede o/a arguido/a de exercer adequadamente o
+    seu direito de defesa (art. 32.º, n.º 1 CRP), constituindo nulidade do auto
+    por violação do disposto no artigo 58.º, alínea f), do RGCO.
+
+16. Acresce que, segundo a Portaria n.º 1504/2008, a margem de incerteza de
+    medição dos aparelhos de controlo de velocidade deve ser deduzida ao valor
+    medido para efeitos de determinação da velocidade real. Não constando do auto
+    qualquer referência a tal dedução, a velocidade imputada ao/à arguido/a
+    poderá estar inflacionada.
+
+17. Neste sentido pronunciou-se o Tribunal da Relação do Porto, no acórdão de
+    14/11/2018 (proc. n.º 1028/17.7T8PNF.P1), concluindo pela nulidade do auto
+    quando o mesmo não contém os dados de identificação e calibração do aparelho.
+
+────────────────────────────────────────────────────────────────────────────────
+[FUNDAMENTO C — SELECIONAR SE APLICÁVEL]
+C.1 NÃO IDENTIFICAÇÃO DO CONDUTOR / IMPUTAÇÃO INDEVIDA AO TITULAR
+────────────────────────────────────────────────────────────────────────────────
+
+18. Não foi o/a arguido/a quem conduzia o veículo de matrícula {{matricula}} na
+    data e hora referidas no auto, mas sim {{nome_condutor_real}},
+    portador/a do CC n.º {{cc_condutor_real}}, com morada em
+    {{morada_condutor_real}}.
+
+    [OU, em alternativa:]
+
+18. O/A arguido/a é titular do veículo de matrícula {{matricula}}, mas não era
+    o/a condutor/a do mesmo no momento da alegada infração, desconhecendo
+    a identidade do condutor efetivo.
+
+19. O artigo 134.º, n.º 1 do Código da Estrada estabelece a responsabilidade
+    do titular do veículo apenas quando não identifique o condutor efetivo.
+    In casu, o/a arguido/a procede à identificação do condutor, juntando
+    declaração escrita para o efeito (Doc. n.º {{numero_doc}}).
+
+20. Não podendo a responsabilidade contraordenacional ser presumida ou transferida
+    sem identificação do infrator concreto (art. 7.º do RGCO; art. 133.º, n.º 1 CE),
+    e tendo sido identificado o condutor real, impõe-se a absolvição do/a
+    arguido/a titular do veículo.
+
+────────────────────────────────────────────────────────────────────────────────
+[FUNDAMENTO D — SELECIONAR SE APLICÁVEL]
+D.1 AUSÊNCIA DE SINALIZAÇÃO DO LIMITE DE VELOCIDADE
+────────────────────────────────────────────────────────────────────────────────
+
+21. No local identificado no auto como local da infração — {{local_infracao}} —
+    não existia, à data dos factos, sinalização vertical de limite de velocidade
+    que impusesse o limite de {{limite_legal}} km/h de forma clara e legalmente
+    eficaz, em violação do disposto nos artigos 13.º e 88.º do Código da Estrada
+    e no Regulamento de Sinalização do Trânsito (RST — DL n.º 22-A/98,
+    de 20 de janeiro).
+
+22. Na ausência de sinalização eficaz e visível do limite especial invocado,
+    o limite geral aplicável na via em causa seria de {{limite_geral}} km/h,
+    nos termos do artigo 27.º do Código da Estrada, valor que o/a arguido/a
+    respeitava.
+
+────────────────────────────────────────────────────────────────────────────────
+[FUNDAMENTO E — SELECIONAR SE APLICÁVEL]
+E.1 PRESCRIÇÃO DO PROCEDIMENTO CONTRAORDENACIONAL
+────────────────────────────────────────────────────────────────────────────────
+
+23. A infração alegadamente praticada ocorreu em {{data_infracao}}, e a decisão
+    condenatória apenas foi notificada ao/à arguido/a em {{data_notificacao}},
+    decorridos mais de {{numero_anos}} anos sobre a data dos factos.
+
+24. Nos termos do artigo 27.º, alínea b), do RGCO, o prazo de prescrição do
+    procedimento contraordenacional é de dois anos para contraordenações
+    puníveis com coima até €25.000, e de cinco anos para as puníveis com
+    coima superior. Para a infração em causa, o prazo máximo é de
+    {{prazo_prescricao}} anos.
+
+25. Não constando dos autos qualquer ato interruptivo válido da prescrição,
+    nos termos do artigo 28.º do RGCO, o procedimento encontra-se prescrito,
+    devendo ser arquivado com absolvição do/a arguido/a.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+IV. MEIOS DE PROVA REQUERIDOS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+26. O/A arguido/a requer a produção dos seguintes meios de prova:
+
+    a) PROVA DOCUMENTAL:
+       — Documento Único Automóvel (DUA) do veículo {{matricula}} [Doc. 1]
+       — Certificado de verificação metrológica do equipamento de medição [Doc. 2]
+         (a juntar pela entidade autuante ou a requerer ao IPAC)
+       — Registo fotográfico ou filmagem que serviu de base à autuação [Doc. 3]
+       — {{outros_documentos}}
+
+    b) PROVA TESTEMUNHAL:
+       — {{nome_testemunha_1}}, com morada em {{morada_testemunha_1}},
+         que estava presente no local e pode atestar as condições de circulação
+       — {{nome_testemunha_2}}, com morada em {{morada_testemunha_2}}
+
+    c) PROVA PERICIAL (se aplicável):
+       — Perícia ao equipamento de medição utilizado, designadamente quanto
+         ao estado de calibração e cumprimento das normas técnicas aplicáveis
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+V. PEDIDO
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+27. Nestes termos e nos demais de direito aplicáveis, requer a V. Ex.ª que se
+    digne:
+
+    PRIMEIRO — Admitir a presente impugnação judicial e designar data para
+    audiência de julgamento;
+
+    SEGUNDO — Ordenar à entidade autuante a junção aos autos do certificado de
+    verificação metrológica do equipamento de medição utilizado, bem como do
+    respetivo registo de medição com indicação da margem de erro deduzida;
+
+    TERCEIRO — Julgar a impugnação PROCEDENTE e, consequentemente:
+              a) Absolver o/a arguido/a da contraordenação que lhe é imputada; ou,
+              b) Caso assim não se entenda, declarar a nulidade do auto de
+                 contraordenação pelos vícios formais identificados; ou ainda,
+              c) Subsidiariamente, determinar a especial atenuação ou redução
+                 da coima para o mínimo legal, ponderando a situação económica
+                 do/a arguido/a e a ausência de antecedentes contraordenacionais
+                 relevantes (art. 18.º do RGCO);
+
+    QUARTO — Condenar a entidade autuante nas custas do processo.
+
+    Pede deferimento,
+
+{{localidade}}, {{data_submissao}}
+
+_____________________________________________
+(assinatura)
+{{nome_completo}}
+NIF: {{nif}}
+CC/BI: {{numero_cc}}
+Morada: {{morada_completa}}, {{codigo_postal}} {{localidade}}
+Email: {{email}} | Tel.: {{telefone}}
+
+================================================================================
+DOCUMENTOS JUNTOS:
+Doc. 1 — Documento Único Automóvel (DUA)
+Doc. 2 — {{descricao_doc_2}}
+Doc. 3 — {{descricao_doc_3}}
+{{lista_documentos_adicionais}}
+================================================================================
+
+[NOTA DE PREENCHIMENTO — REMOVER ANTES DE ENVIAR]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Prazo:    15 dias úteis a contar da notificação (art. 59.º, n.º 3 RGCO)
+Entrega:  No tribunal de instrução criminal competente (art. 61.º RGCO)
+          ou na entidade autuante se ainda em fase administrativa
+Custas:   Pagamento de taxa de justiça (tabela anexa ao RCP — DL 34/2008)
+Selecionar APENAS os Fundamentos A, B, C, D, E aplicáveis ao caso concreto
+e eliminar os restantes antes de enviar o documento.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

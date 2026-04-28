@@ -1,0 +1,323 @@
+================================================================================
+MINUTA DE IMPUGNAÇÃO JUDICIAL DE COIMA — VÍCIOS FORMAIS E ERROS ADMINISTRATIVOS
+Regime Geral das Contraordenações e Coimas (DL n.º 433/82, de 27 de outubro)
+================================================================================
+
+                          IMPUGNAÇÃO JUDICIAL
+                    [Por vícios formais / erros administrativos]
+
+                  Processo n.º: {{numero_processo}}
+                  Auto n.º:     {{numero_auto}}
+
+================================================================================
+
+Exmo. Senhor Presidente do Tribunal de Instrução Criminal de {{comarca}}
+
+--------------------------------------------------------------------------------
+
+{{nome_completo}}, portador/a do Cartão de Cidadão n.º {{numero_cc}},
+NIF n.º {{nif}}, residente em {{morada_completa}}, {{codigo_postal}} {{localidade}},
+email: {{email}}, telefone: {{telefone}},
+
+vem, nos termos dos artigos 59.º e seguintes do Decreto-Lei n.º 433/82, de
+27 de outubro (RGCO), apresentar
+
+                        IMPUGNAÇÃO JUDICIAL
+
+do Auto de Contraordenação n.º {{numero_auto}}, de {{data_auto}}, lavrado pela
+{{entidade_autuante}}, porquanto o mesmo padece de vícios formais e/ou
+substantivos que determinam a sua nulidade ou tornam inadmissível a condenação
+do/a arguido/a, nos termos que se expõem:
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+I. IDENTIFICAÇÃO E ENQUADRAMENTO
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. O auto de contraordenação n.º {{numero_auto}}, datado de {{data_auto}},
+   foi lavrado pela {{entidade_autuante}}, atribuindo ao/à arguido/a a prática
+   da contraordenação p. e p. pelo(s) artigo(s) {{artigos_violados}} do Código
+   da Estrada, por alegada infração {{descricao_infracao_auto}}.
+
+2. Notificado/a em {{data_notificacao}}, o/a arguido/a examinando cuidadosamente
+   o auto e demais documentos que o acompanham, verificou a existência dos
+   seguintes erros e vícios, que prossegue a identificar e fundamentar:
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+II. EXPOSIÇÃO DOS VÍCIOS IDENTIFICADOS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+III. FUNDAMENTAÇÃO JURÍDICA
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+────────────────────────────────────────────────────────────────────────────────
+[FUNDAMENTO A — SELECIONAR SE APLICÁVEL]
+A.1 IDENTIFICAÇÃO INCORRETA DO VEÍCULO — MATRÍCULA ERRADA
+────────────────────────────────────────────────────────────────────────────────
+
+3. O auto de contraordenação n.º {{numero_auto}} identifica o veículo
+   interveniente com a matrícula {{matricula_errada_no_auto}}.
+
+4. Sucede, porém, que tal matrícula não corresponde ao veículo de que o/a
+   arguido/a é titular. Com efeito, o/a arguido/a é proprietário/a do veículo
+   de matrícula {{matricula_real}}, {{marca_modelo}}, DUA junto como Doc. 1,
+   que difere da matrícula inscrita no auto.
+   [OU: O veículo de matrícula {{matricula_errada_no_auto}} pertence a
+   {{titular_real}}, conforme DUA junto como Doc. 2, sendo pessoa diferente
+   do/a arguido/a.]
+
+5. A identificação correta do veículo é elemento essencial do auto de
+   contraordenação, nos termos do artigo 58.º, alínea b), do RGCO. A sua
+   omissão ou incorreção constitui nulidade do auto, por impossibilitar
+   a correta imputação da infração ao sujeito responsável.
+
+6. Neste sentido, o acórdão do Tribunal da Relação de Évora de 21/01/2020
+   (proc. n.º 234/18.3T8SRP.E1) sustenta que "a errada identificação da
+   matrícula do veículo constitui vício determinante da nulidade do auto,
+   por eliminar a ligação objetiva entre o facto e o seu agente."
+
+7. Assim, face à incorreta identificação do veículo, o auto encontra-se ferido
+   de nulidade insuprível, devendo o procedimento ser arquivado.
+
+────────────────────────────────────────────────────────────────────────────────
+[FUNDAMENTO B — SELECIONAR SE APLICÁVEL]
+B.1 FALTA DE ELEMENTOS OBRIGATÓRIOS DO AUTO — ART. 58.º DO RGCO
+────────────────────────────────────────────────────────────────────────────────
+
+8. O artigo 58.º do RGCO estabelece os elementos que devem obrigatoriamente
+   constar do auto de contraordenação, sob pena de nulidade. São eles:
+   a) A identificação do arguido;
+   b) A descrição dos factos constitutivos da contraordenação;
+   c) A indicação das normas violadas e das normas punitivas aplicáveis;
+   d) A data e o local da infração;
+   e) A identificação e assinatura do autuante.
+
+9. O auto de contraordenação n.º {{numero_auto}} não contém os seguintes
+   elementos obrigatórios, em manifesta violação do citado artigo 58.º:
+
+   [Selecionar os que se aplicam:]
+
+   □ A.  FALTA DE IDENTIFICAÇÃO DO AGENTE AUTUANTE:
+         O auto não identifica, de forma suficiente, o agente autuante que
+         o lavrou. Não consta o nome completo, número funcional/mecanográfico
+         e a força policial / serviço a que pertence, o que impede o exercício
+         do direito de defesa do/a arguido/a, que não pode contraditar a
+         credibilidade do agente ou aferir eventuais conflitos de interesse.
+
+   □ B.  DESCRIÇÃO INSUFICIENTE DOS FACTOS:
+         A descrição factual constante do auto é genérica e conclusiva, limitando-se
+         a reproduzir o texto da norma legal, sem descrever, com a especificidade
+         exigida, os factos concretos que teriam sido praticados pelo/a arguido/a.
+         Uma descrição meramente conclusiva não permite ao arguido saber
+         exatamente o que lhe é imputado, violando as garantias de defesa
+         consagradas no artigo 32.º, n.º 1 da CRP.
+
+   □ C.  INDICAÇÃO INCORRETA OU OMISSÃO DA NORMA PUNITIVA:
+         O auto não indica, ou indica incorretamente, a norma punitiva aplicável,
+         designadamente o valor mínimo e máximo da coima, tornando impossível ao
+         arguido aquilatar da proporcionalidade da sanção aplicada.
+
+   □ D.  DATA E/OU HORA INCORRETAS:
+         A data indicada no auto — {{data_no_auto}} — é incorreta, porquanto na
+         data em causa o/a arguido/a comprova que {{prova_alibi}}.
+         [Ex: o veículo estava estacionado noutro local / o arguido não se
+         encontrava em Portugal / o veículo estava em manutenção na oficina.]
+         Junta-se como Doc. n.º {{num_doc}} {{descricao_prova}}.
+
+   □ E.  LOCAL DA INFRAÇÃO INDICADO INCORRETAMENTE:
+         O local indicado no auto — {{local_no_auto}} — não corresponde ao
+         local real onde o veículo se encontrava, conforme comprova {{descricao_prova}}.
+
+10. A ausência ou incorreção de qualquer dos elementos referidos no artigo 58.º
+    do RGCO determina a nulidade do auto (art. 63.º, n.º 1, alínea d), RGCO),
+    por violação das garantias processuais do arguido — cf. acórdão do Tribunal
+    da Relação de Lisboa de 12/07/2016 (proc. n.º 617/15.9T8PDL.L1-5):
+    "O auto de contraordenação que omite a identificação do autuante e a
+    descrição concreta dos factos é nulo, determinando o arquivamento do processo."
+
+────────────────────────────────────────────────────────────────────────────────
+[FUNDAMENTO C — SELECIONAR SE APLICÁVEL]
+C.1 VIOLAÇÃO DO DIREITO DE AUDIÇÃO PRÉVIA — ART. 50.º DO RGCO
+────────────────────────────────────────────────────────────────────────────────
+
+11. Antes de ser proferida a decisão condenatória, o arguido tem o direito
+    a ser ouvido, nos termos do artigo 50.º do RGCO, que determina que:
+    "Não é permitida a aplicação de uma coima ou de uma sanção acessória
+    sem antes se ter assegurado ao arguido a possibilidade de, num prazo
+    razoável, se pronunciar sobre a contraordenação que lhe é imputada
+    e sobre a sanção ou sanções em que possa incorrer."
+
+12. In casu, o/a arguido/a não foi notificado/a para exercer o seu direito
+    de audição prévia antes da prolação da decisão condenatória, tendo
+    recebido diretamente a decisão de aplicação de coima sem qualquer
+    fase prévia de defesa.
+    [OU: A notificação para audição prévia não continha os elementos
+    mínimos necessários para uma defesa eficaz, designadamente
+    {{elementos_omitidos}}.]
+
+13. A omissão do direito de audição prévia constitui nulidade insuprível
+    do processo, por violação de garantia procedimental fundamental com
+    consagração constitucional (art. 32.º, n.ºs 1 e 10 da CRP) — cf.
+    acórdão do Tribunal Constitucional n.º 245/2009 e STJ de 07/11/2013.
+
+────────────────────────────────────────────────────────────────────────────────
+[FUNDAMENTO D — SELECIONAR SE APLICÁVEL]
+D.1 PRESCRIÇÃO DO PROCEDIMENTO CONTRAORDENACIONAL
+────────────────────────────────────────────────────────────────────────────────
+
+14. A infração alegada ocorreu em {{data_infracao}}. Nos termos do artigo 27.º
+    do RGCO, a prescrição do procedimento contraordenacional verifica-se nos
+    seguintes prazos, contados desde a data da prática do facto:
+    — 5 anos para contraordenações puníveis com coima máxima superior a €25.000;
+    — 2 anos para as demais contraordenações (caso típico das infrações ao CE).
+
+15. Para a contraordenação imputada ao/à arguido/a, o prazo prescricional
+    aplicável é de {{prazo_prescricao}}.
+
+16. Desde a data da infração ({{data_infracao}}) até à data em que o/a
+    arguido/a recebeu a notificação da decisão condenatória ({{data_notificacao}}),
+    decorreu o prazo de {{periodo_decorrido}}, sem que se tenham verificado
+    quaisquer atos interruptivos da prescrição nos termos do artigo 28.º do RGCO.
+
+17. [Quanto a eventuais causas interruptivas invocadas pela entidade autuante:]
+    O/A arguido/a contesta que a notificação de {{data_notificacao_anterior}}
+    tenha produzido efeito interruptivo da prescrição, porquanto:
+    {{fundamentacao_contra_interrupcao}}
+    [ex: a notificação foi enviada para morada incorreta / o/a arguido/a não
+    foi pessoalmente notificado/a / a notificação não continha os elementos
+    mínimos exigidos pelo art. 70.º do RGCO.]
+
+18. Verificada a prescrição, o procedimento deve ser arquivado (art. 63.º,
+    n.º 1, al. a), RGCO), com absolvição do/a arguido/a.
+
+────────────────────────────────────────────────────────────────────────────────
+[FUNDAMENTO E — SELECIONAR SE APLICÁVEL]
+E.1 INEXISTÊNCIA DE RESPONSABILIDADE — VEÍCULO FURTADO / CEDIDO / VENDIDO
+────────────────────────────────────────────────────────────────────────────────
+
+19. Na data da alegada infração ({{data_infracao}}), o veículo de matrícula
+    {{matricula}} havia sido:
+
+    □ FURTADO: O veículo encontrava-se furtado desde {{data_furto}},
+      tendo sido apresentada participação às autoridades com o n.º {{numero_participacao}},
+      junta como Doc. n.º {{num_doc}}. O/A arguido/a não tinha qualquer poder
+      de facto sobre o veículo à data da infração.
+
+    □ CEDIDO A TERCEIRO: O veículo tinha sido cedido a {{nome_cessionario}},
+      portador/a do CC n.º {{cc_cessionario}}, sendo este/a quem o conduzia.
+      Identificação do condutor efetivo junta como Doc. n.º {{num_doc}}.
+
+    □ VENDIDO / TRANSMITIDO: O veículo havia sido vendido a {{nome_comprador}}
+      em {{data_venda}}, conforme contrato de compra e venda / recibo junto
+      como Doc. n.º {{num_doc}}, antes da data da alegada infração.
+      O registo da transmissão na Conservatória encontrava-se pendente,
+      mas o/a arguido/a já não detinha a posse ou a disponibilidade do veículo.
+
+20. Nos termos do artigo 7.º do RGCO, "só é punível a ação ou omissão dolosa ou
+    negligente", não podendo a responsabilidade ser imputada a quem não tinha
+    qualquer relação de disponibilidade sobre o veículo no momento da infração.
+
+────────────────────────────────────────────────────────────────────────────────
+[FUNDAMENTO F — SELECIONAR SE APLICÁVEL]
+F.1 VIOLAÇÃO DO PRINCÍPIO NE BIS IN IDEM
+────────────────────────────────────────────────────────────────────────────────
+
+21. O/A arguido/a já foi julgado/a e condenado/a, ou absolvido/a, pelos mesmos
+    factos que agora lhe são novamente imputados, no âmbito do processo
+    {{referencia_processo_anterior}}, conforme prova documental junta.
+
+22. O princípio ne bis in idem, consagrado no artigo 29.º, n.º 5 da CRP,
+    proíbe que alguém seja julgado mais de uma vez pelo mesmo facto. A sua
+    violação constitui nulidade insanável do processo, devendo o mesmo ser
+    imediatamente arquivado.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+IV. MEIOS DE PROVA
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+23. Para prova dos factos e fundamentos alegados, o/a arguido/a requer:
+
+    a) PROVA DOCUMENTAL:
+       — DUA do veículo {{matricula}} [Doc. 1]
+       — {{descricao_doc_2}} [Doc. 2]
+       — {{descricao_doc_3}} [Doc. 3]
+       — {{lista_docs_adicionais}}
+
+    b) PROVA TESTEMUNHAL:
+       — {{nome_testemunha_1}}, residente em {{morada_testemunha_1}}
+       — {{nome_testemunha_2}}, residente em {{morada_testemunha_2}}
+
+    c) SOLICITAÇÃO DE INFORMAÇÃO (art. 58.º CPC, ex vi art. 41.º RGCO):
+       — À {{entidade_autuante}}: remessa de cópia integral do processo
+         administrativo de contraordenação, incluindo todos os registos
+         internos relativos à autuação, dados do agente autuante,
+         registos fotográficos ou de vídeo que estejam na base da coima.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+V. PEDIDO
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+24. Face ao exposto, requer a V. Ex.ª que se digne:
+
+    PRIMEIRO — Admitir a presente impugnação e designar data para julgamento;
+
+    SEGUNDO — Notificar a {{entidade_autuante}} para juntar aos autos, no prazo
+              de 10 dias:
+              a) Cópia integral do processo administrativo;
+              b) Identificação completa do agente autuante;
+              c) Suporte documental e/ou fotográfico da infração;
+              d) Evidência da regularidade da notificação;
+
+    TERCEIRO — Declarar a NULIDADE do Auto de Contraordenação n.º {{numero_auto}}
+               com fundamento nos vícios identificados nos artigos supra;
+
+    QUARTO — Subsidiariamente, à nulidade, absolver o/a arguido/a por
+              insuficiência de prova e aplicação do princípio in dubio pro reo
+              (art. 32.º, n.º 2 CRP; art. 50.º RGCO);
+
+    QUINTO — Ainda subsidiariamente, caso se entenda manter alguma sanção,
+              reduzir a coima ao mínimo legal com especial atenuação, ao abrigo
+              dos artigos 18.º, n.º 1 e 72.º-A do RGCO, ponderando:
+              i)   A situação económica e familiar do/a arguido/a;
+              ii)  A ausência de antecedentes contraordenacionais relevantes;
+              iii) A leveza do ilícito e a ausência de dano relevante;
+
+    SEXTO — Condenar a entidade autuante em custas (art. 92.º, n.º 2 RGCO).
+
+    Pede deferimento,
+
+{{localidade}}, {{data_submissao}}
+
+_____________________________________________
+(assinatura)
+{{nome_completo}}
+NIF: {{nif}} | CC/BI: {{numero_cc}}
+Morada: {{morada_completa}}, {{codigo_postal}} {{localidade}}
+Tel.: {{telefone}} | Email: {{email}}
+
+================================================================================
+DOCUMENTOS JUNTOS:
+Doc. 1 — Documento Único Automóvel (matrícula {{matricula}})
+Doc. 2 — {{descricao_doc_2}}
+Doc. 3 — {{descricao_doc_3}}
+{{lista_documentos_adicionais}}
+================================================================================
+
+[NOTAS DE PREENCHIMENTO — REMOVER ANTES DE ENVIAR]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Prazo:      15 dias úteis após notificação da decisão (art. 59.º, n.º 3 RGCO)
+            [Contar apenas dias úteis — excluir sábados, domingos e feriados]
+Tribunal:   Tribunal de Instrução Criminal da comarca correspondente ao local
+            da infração (art. 61.º RGCO)
+Assinatura: O documento deve ser assinado com assinatura qualificada ou
+            entregue pessoalmente com documento de identificação
+Custas:     Taxa de justiça inicial devida nos termos do art. 8.º do RCP
+            (DL n.º 34/2008), salvo dispensa por insuficiência económica
+Atenção:    Remover TODOS os fundamentos (A, B, C, D, E, F) não aplicáveis.
+            Manter apenas os que correspondem ao caso concreto.
+            Eliminar todas as notas entre [parênteses retos].
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

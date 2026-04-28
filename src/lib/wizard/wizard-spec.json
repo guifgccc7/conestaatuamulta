@@ -1,0 +1,681 @@
+{
+  "_comment": "Machine-readable spec of the smart wizard. All conditions, validations and UX copy.",
+  "version": "2.0.0",
+  "locale": "pt-PT",
+  "steps": [
+    {
+      "id": 1,
+      "key": "fine_type",
+      "title": "Que tipo de multa recebeste?",
+      "subtitle": "Seleciona a infração indicada na notificação",
+      "analyticsEvent": "wizard_step1_fine_type",
+      "autoAdvance": true,
+      "fields": [
+        {
+          "id": "fineCategory",
+          "type": "radio_card",
+          "required": true,
+          "label": "",
+          "errorMessage": "Seleciona o tipo de multa para continuar",
+          "options": [
+            { "value": "SPEEDING",      "label": "Excesso de Velocidade",       "icon": "🚗", "badge": "Mais contestada",      "revealFields": ["speedingSubtype"] },
+            { "value": "PARKING",       "label": "Estacionamento / Paragem",    "icon": "🅿️",  "badge": null,                   "revealFields": ["parkingSubtype"] },
+            { "value": "ADMIN_ERROR",   "label": "Erro na Multa",               "icon": "📋", "badge": "Alta taxa de sucesso",  "revealFields": [] },
+            { "value": "TRAFFIC_LIGHT", "label": "Semáforo Vermelho",           "icon": "🚦", "badge": null,                   "revealFields": [] },
+            { "value": "MOBILE_PHONE",  "label": "Uso de Telemóvel",            "icon": "📱", "badge": null,                   "revealFields": [] },
+            { "value": "SEATBELT",      "label": "Falta de Cinto de Segurança", "icon": "💺", "badge": null,                   "revealFields": [] },
+            { "value": "OTHER",         "label": "Outra Infração",              "icon": "⚠️", "badge": null,                   "revealFields": [] }
+          ]
+        },
+        {
+          "id": "speedingSubtype",
+          "type": "radio_button",
+          "label": "Que equipamento foi usado?",
+          "hint": "Indicado na notificação ou na auto recebida",
+          "required": false,
+          "condition": { "field": "fineCategory", "operator": "equals", "value": "SPEEDING" },
+          "options": [
+            { "value": "fixed_radar",   "label": "Radar fixo",            "icon": "📡" },
+            { "value": "mobile_radar",  "label": "Radar móvel",           "icon": "🚔" },
+            { "value": "lidar",         "label": "LIDAR (pistola laser)", "icon": "🔫" },
+            { "value": "section_speed", "label": "Velocidade média",      "icon": "📏" },
+            { "value": "photo_fine",    "label": "Fotomulta",             "icon": "📷" },
+            { "value": "unknown",       "label": "Não sei",               "icon": "❓" }
+          ]
+        },
+        {
+          "id": "parkingSubtype",
+          "type": "radio_button",
+          "label": "Qual o tipo de infração?",
+          "required": false,
+          "condition": { "field": "fineCategory", "operator": "equals", "value": "PARKING" },
+          "options": [
+            { "value": "prohibited_zone", "label": "Zona proibida" },
+            { "value": "second_row",      "label": "Segunda fila" },
+            { "value": "pavement",        "label": "Cima do passeio" },
+            { "value": "reserved",        "label": "Lugar reservado" },
+            { "value": "no_disc",         "label": "Sem disco/dístico" },
+            { "value": "expired_disc",    "label": "Disco expirado" },
+            { "value": "other_parking",   "label": "Outra" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": 2,
+      "key": "fine_details",
+      "title": "Dados da multa",
+      "subtitle": "Preenche com as informações da notificação recebida",
+      "analyticsEvent": "wizard_step2_fine_details",
+      "fields": [
+        {
+          "id": "fineReference",
+          "type": "text",
+          "label": "Número da auto / referência",
+          "placeholder": "Ex: ANSR/2025/123456",
+          "hint": "Canto superior da notificação",
+          "required": false,
+          "maxLength": 50
+        },
+        {
+          "id": "fineDate",
+          "type": "date",
+          "label": "Data da infração",
+          "required": true,
+          "validation": [
+            { "type": "required",   "message": "A data da infração é obrigatória" },
+            { "type": "not_future", "message": "A data não pode ser no futuro" }
+          ]
+        },
+        {
+          "id": "fineTime",
+          "type": "text",
+          "label": "Hora da infração",
+          "placeholder": "14:30",
+          "required": false,
+          "validation": [
+            { "type": "pattern", "value": "^([01]?[0-9]|2[0-3]):[0-5][0-9]$", "message": "Formato inválido. Usa HH:MM (ex: 14:30)" }
+          ]
+        },
+        {
+          "id": "fineAuthority",
+          "type": "select",
+          "label": "Entidade autuante",
+          "required": true,
+          "validation": [{ "type": "required", "message": "Seleciona a entidade autuante" }],
+          "options": [
+            { "value": "GNR",          "label": "GNR — Guarda Nacional Republicana" },
+            { "value": "PSP",          "label": "PSP — Polícia de Segurança Pública" },
+            { "value": "ANSR",         "label": "ANSR — Autoridade Nacional de Segurança Rodoviária" },
+            { "value": "EMEL",         "label": "EMEL — Mobilidade e Estacionamento de Lisboa" },
+            { "value": "SMTUC",        "label": "SMTUC — Serviços Municipalizados de Coimbra" },
+            { "value": "IMT",          "label": "IMT — Instituto da Mobilidade e dos Transportes" },
+            { "value": "MUNICIPALITY", "label": "Câmara Municipal" },
+            { "value": "OTHER",        "label": "Outra entidade" }
+          ]
+        },
+        {
+          "id": "fineLocation",
+          "type": "text",
+          "label": "Local da infração",
+          "placeholder": "Ex: EN10, Km 15, Setúbal",
+          "hint": "Via, rua ou localidade indicada na notificação",
+          "required": true,
+          "maxLength": 200,
+          "validation": [
+            { "type": "required",   "message": "O local da infração é obrigatório" },
+            { "type": "minLength",  "value": 3, "message": "Descreve melhor o local (mínimo 3 caracteres)" }
+          ]
+        },
+        {
+          "id": "vehiclePlate",
+          "type": "plate",
+          "label": "Matrícula do veículo",
+          "placeholder": "AB-12-CD",
+          "hint": "Tal como aparece no DUA",
+          "required": true,
+          "transform": "uppercase_remove_separators",
+          "validation": [
+            { "type": "required", "message": "A matrícula é obrigatória" },
+            { "type": "pattern",  "value": "^[A-Z]{2}[0-9]{2}[A-Z]{2}$|^[0-9]{2}[A-Z]{2}[0-9]{2}$|^[0-9]{4}[A-Z]{2}$", "message": "Matrícula inválida — formato português" }
+          ]
+        },
+        {
+          "id": "speedRegistered",
+          "type": "number",
+          "label": "Velocidade registada (km/h)",
+          "required": true,
+          "condition": { "field": "fineCategory", "operator": "equals", "value": "SPEEDING" },
+          "validation": [
+            { "type": "required",  "message": "Indica a velocidade registada", "condition": { "field": "fineCategory", "operator": "equals", "value": "SPEEDING" } },
+            { "type": "min",       "value": 1,   "message": "Valor inválido" },
+            { "type": "max",       "value": 300, "message": "Velocidade improvável — verifica o valor" }
+          ]
+        },
+        {
+          "id": "speedLimit",
+          "type": "select",
+          "label": "Limite legal no local (km/h)",
+          "required": true,
+          "condition": { "field": "fineCategory", "operator": "equals", "value": "SPEEDING" },
+          "options": [
+            { "value": "30",  "label": "30 km/h" },
+            { "value": "50",  "label": "50 km/h — Localidade" },
+            { "value": "70",  "label": "70 km/h" },
+            { "value": "80",  "label": "80 km/h" },
+            { "value": "90",  "label": "90 km/h" },
+            { "value": "100", "label": "100 km/h" },
+            { "value": "120", "label": "120 km/h — Autoestrada" }
+          ]
+        },
+        {
+          "id": "fineAmount",
+          "type": "text",
+          "label": "Valor da coima (€)",
+          "placeholder": "Ex: 120",
+          "required": false,
+          "validation": [
+            { "type": "pattern", "value": "^[0-9]+(,[0-9]{2})?$", "message": "Formato inválido (ex: 120 ou 120,50)" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": 3,
+      "key": "context",
+      "title": "Conta-nos o que aconteceu",
+      "subtitle": "As tuas respostas determinam os melhores fundamentos jurídicos",
+      "analyticsEvent": "wizard_step3_context",
+      "fields": [
+        {
+          "id": "wasDriverAtTime",
+          "type": "radio_button",
+          "label": "Eras tu quem conduzia o veículo?",
+          "required": true,
+          "validation": [{ "type": "required", "message": "Indica se eras tu o/a condutor/a" }],
+          "options": [
+            { "value": "yes",       "label": "Sim, era eu" },
+            { "value": "no",        "label": "Não, era outra pessoa" },
+            { "value": "uncertain", "label": "Não tenho a certeza" }
+          ]
+        },
+        {
+          "id": "realDriverName",
+          "type": "text",
+          "label": "Nome do condutor efetivo",
+          "placeholder": "Ex: João Pereira da Silva",
+          "hint": "Identificar o condutor real pode levar à tua absolvição (art. 134.º CE)",
+          "required": false,
+          "condition": { "field": "wasDriverAtTime", "operator": "equals", "value": "no" }
+        },
+        {
+          "id": "agreesWithFine",
+          "type": "radio_button",
+          "label": "Concordas com a infração imputada?",
+          "hint": "Responde com honestidade — afeta a solidez da contestação",
+          "required": true,
+          "validation": [{ "type": "required", "message": "Responde se concordas ou não com a multa" }],
+          "options": [
+            { "value": "no",      "label": "❌ Não concordo" },
+            { "value": "partial", "label": "⚠️ Concordo em parte" },
+            { "value": "yes",     "label": "📉 Sim, quero só reduzir a coima" }
+          ],
+          "infoAlert": {
+            "condition": { "field": "agreesWithFine", "operator": "equals", "value": "yes" },
+            "type": "warning",
+            "message": "Se concordas plenamente, a contestação tem menor probabilidade de êxito. Podes ainda pedir redução ao mínimo legal (art. 18.º RGCO)."
+          }
+        },
+        {
+          "id": "hasEvidence",
+          "type": "radio_button",
+          "label": "Tens alguma prova que apoie a tua versão?",
+          "required": true,
+          "validation": [{ "type": "required", "message": "Indica se tens alguma prova" }],
+          "options": [
+            { "value": "yes",     "label": "Sim, tenho" },
+            { "value": "partial", "label": "Tenho alguma" },
+            { "value": "no",      "label": "Não tenho" }
+          ]
+        },
+        {
+          "id": "evidenceTypes",
+          "type": "checkbox_group",
+          "label": "Que tipo de prova?",
+          "required": false,
+          "condition": { "field": "hasEvidence", "operator": "in", "value": ["yes", "partial"] },
+          "options": [
+            { "value": "photos",           "label": "📷 Fotografias do local" },
+            { "value": "video",            "label": "🎥 Vídeo (dashcam / câmara)" },
+            { "value": "witness",          "label": "👤 Testemunha presente" },
+            { "value": "gps_data",         "label": "📍 Dados GPS / navegador" },
+            { "value": "workshop_receipt", "label": "🔧 Recibo de oficina" },
+            { "value": "medical",          "label": "🏥 Atestado médico" },
+            { "value": "disability_card",  "label": "♿ Cartão de deficiência" },
+            { "value": "other",            "label": "📁 Outros documentos" }
+          ]
+        },
+        {
+          "id": "fineHasDefects",
+          "type": "radio_button",
+          "label": "Reparaste em algum erro ou problema na notificação?",
+          "hint": "Irregularidades formais são frequentemente a base mais sólida de contestação",
+          "required": true,
+          "validation": [{ "type": "required", "message": "Indica se reparaste em erros na notificação" }],
+          "options": [
+            { "value": "yes", "label": "✅ Sim, detetei erros" },
+            { "value": "no",  "label": "Não reparei" }
+          ]
+        },
+        {
+          "id": "fineDefectTypes",
+          "type": "checkbox_group",
+          "label": "Que tipo de erro?",
+          "required": false,
+          "condition": { "field": "fineHasDefects", "operator": "equals", "value": "yes" },
+          "options": [
+            { "value": "wrong_plate",       "label": "❌ Matrícula errada" },
+            { "value": "wrong_date",        "label": "📅 Data ou hora incorreta" },
+            { "value": "wrong_location",    "label": "📍 Local incorreto" },
+            { "value": "missing_evidence",  "label": "📷 Sem fotografia ou prova" },
+            { "value": "no_agent_id",       "label": "👮 Agente não identificado" },
+            { "value": "late_notification", "label": "📬 Notificação muito tardia" },
+            { "value": "no_hearing",        "label": "📜 Sem direito a defesa prévia" },
+            { "value": "prescription",      "label": "⏰ Multa possivelmente prescrita" }
+          ]
+        },
+        {
+          "id": "radarCalibration",
+          "type": "radio_button",
+          "label": "O auto indica o certificado de calibração do radar?",
+          "hint": "A verificação metrológica é obrigatória por lei (Portaria 1504/2008)",
+          "required": false,
+          "condition": { "field": "fineCategory", "operator": "equals", "value": "SPEEDING", "sourceStep": 1 },
+          "options": [
+            { "value": "yes",     "label": "Sim" },
+            { "value": "no",      "label": "Não indica" },
+            { "value": "unknown", "label": "Não sei" }
+          ]
+        },
+        {
+          "id": "speedSignageVisible",
+          "type": "radio_button",
+          "label": "Havia sinalização visível do limite de velocidade?",
+          "required": false,
+          "condition": { "field": "fineCategory", "operator": "equals", "value": "SPEEDING", "sourceStep": 1 },
+          "options": [
+            { "value": "yes",     "label": "Sim" },
+            { "value": "no",      "label": "Não havia" },
+            { "value": "unclear", "label": "Estava obstruída" },
+            { "value": "unknown", "label": "Não me recordo" }
+          ]
+        },
+        {
+          "id": "parkingSignageVisible",
+          "type": "radio_button",
+          "label": "Havia sinalização visível que proibisse o estacionamento?",
+          "required": false,
+          "condition": { "field": "fineCategory", "operator": "equals", "value": "PARKING", "sourceStep": 1 },
+          "options": [
+            { "value": "yes",     "label": "Sim" },
+            { "value": "no",      "label": "Não havia" },
+            { "value": "unclear", "label": "Estava obstruída" },
+            { "value": "unknown", "label": "Não me recordo" }
+          ]
+        },
+        {
+          "id": "parkingEmergency",
+          "type": "radio_button",
+          "label": "Paraste por emergência (avaria, urgência médica, acidente)?",
+          "hint": "Art. 49.º, n.º 2 CE isenta nestas situações",
+          "required": false,
+          "condition": { "field": "fineCategory", "operator": "equals", "value": "PARKING", "sourceStep": 1 },
+          "options": [
+            { "value": "yes", "label": "Sim" },
+            { "value": "no",  "label": "Não" }
+          ]
+        },
+        {
+          "id": "parkingEmergencyDetail",
+          "type": "textarea",
+          "label": "Descreve brevemente a situação de emergência",
+          "placeholder": "Ex: O veículo avariou subitamente. Chamei assistência às 14:30.",
+          "required": false,
+          "maxLength": 500,
+          "rows": 3,
+          "condition": {
+            "operator": "AND",
+            "conditions": [
+              { "field": "fineCategory",    "operator": "equals", "value": "PARKING", "sourceStep": 1 },
+              { "field": "parkingEmergency","operator": "equals", "value": "yes" }
+            ]
+          }
+        }
+      ]
+    },
+
+    {
+      "id": 4,
+      "key": "legal_grounds",
+      "title": "Os teus fundamentos de defesa",
+      "subtitle": "Com base nas tuas respostas, identificámos estes argumentos jurídicos",
+      "analyticsEvent": "wizard_step4_legal_grounds",
+      "fields": [
+        {
+          "id": "selectedGrounds",
+          "type": "defense_cards",
+          "label": "",
+          "required": true,
+          "computedFrom": "logic-engine:computeDefenses",
+          "validation": [
+            { "type": "minLength", "value": 1, "message": "Seleciona pelo menos um fundamento legal para a contestação" }
+          ]
+        },
+        {
+          "id": "additionalNotes",
+          "type": "textarea",
+          "label": "Informações adicionais",
+          "placeholder": "Acrescenta qualquer outro facto relevante...",
+          "hint": "Quanto mais específico/a fores, mais forte será o teu documento",
+          "required": false,
+          "maxLength": 1000,
+          "rows": 4
+        }
+      ]
+    },
+
+    {
+      "id": 5,
+      "key": "personal_data",
+      "title": "Os teus dados",
+      "subtitle": "Necessários para identificação legal no documento",
+      "analyticsEvent": "wizard_step5_personal",
+      "fields": [
+        {
+          "id": "fullName",
+          "type": "text",
+          "label": "Nome completo",
+          "placeholder": "Maria Oliveira Santos",
+          "hint": "Tal como consta no Cartão de Cidadão",
+          "required": true,
+          "autoComplete": "name",
+          "autoFillFrom": "session.user.name",
+          "maxLength": 100,
+          "validation": [
+            { "type": "required",  "message": "O nome completo é obrigatório" },
+            { "type": "minLength", "value": 5, "message": "Nome demasiado curto" },
+            { "type": "pattern",   "value": "^[A-Za-zÀ-ÿ\\s'\\-]+$", "message": "O nome não pode conter números ou caracteres especiais" }
+          ]
+        },
+        {
+          "id": "nif",
+          "type": "nif",
+          "label": "NIF — Número de Identificação Fiscal",
+          "placeholder": "123456789",
+          "hint": "9 dígitos — consta no Cartão de Cidadão e no DUA",
+          "required": true,
+          "inputMode": "numeric",
+          "maxLength": 9,
+          "validation": [
+            { "type": "required",  "message": "O NIF é obrigatório para identificação legal" },
+            { "type": "pattern",   "value": "^[1-9][0-9]{8}$", "message": "NIF inválido — deve ter 9 dígitos" },
+            { "type": "custom",    "value": "pt_nif_check_digit", "message": "NIF inválido — dígito de controlo incorreto" }
+          ]
+        },
+        {
+          "id": "ccNumber",
+          "type": "text",
+          "label": "N.º do Cartão de Cidadão",
+          "placeholder": "12345678 9 ZZ0",
+          "required": false,
+          "maxLength": 15
+        },
+        {
+          "id": "address",
+          "type": "textarea",
+          "label": "Morada completa",
+          "placeholder": "Rua das Flores, n.º 12, 3.º Dto\n1200-001 Lisboa",
+          "hint": "Rua, número, andar/fração, código postal e localidade",
+          "required": true,
+          "autoComplete": "street-address",
+          "rows": 3,
+          "validation": [
+            { "type": "required",  "message": "A morada é obrigatória" },
+            { "type": "minLength", "value": 10, "message": "Morada demasiado curta — inclui rua, número e código postal" }
+          ]
+        },
+        {
+          "id": "email",
+          "type": "text",
+          "label": "Email de contacto",
+          "placeholder": "maria@exemplo.pt",
+          "required": false,
+          "autoComplete": "email",
+          "autoFillFrom": "session.user.email",
+          "validation": [
+            { "type": "pattern", "value": "^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$", "message": "Email inválido" }
+          ]
+        },
+        {
+          "id": "phone",
+          "type": "tel",
+          "label": "Telemóvel",
+          "placeholder": "9XX XXX XXX",
+          "required": false,
+          "autoComplete": "tel",
+          "validation": [
+            { "type": "pattern", "value": "^(\\+351|00351)?[239][0-9]{8}$", "message": "Número de telemóvel inválido (formato português)" }
+          ]
+        },
+        {
+          "id": "consentDataProcessing",
+          "type": "checkbox",
+          "label": "Autorizo o tratamento dos meus dados pessoais para geração do documento",
+          "required": true,
+          "validation": [
+            { "type": "must_be_true", "message": "Deves autorizar o tratamento de dados para continuar" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": 6,
+      "key": "review",
+      "title": "Revisão final",
+      "subtitle": "Confirma os dados antes de gerar a carta de contestação",
+      "analyticsEvent": "wizard_step6_review",
+      "nextLabel": "Gerar Documento — €4,99",
+      "fields": []
+    }
+  ],
+
+  "conditionalLogic": {
+    "description": "Rules for showing/hiding fields based on other fields' values",
+    "operators": ["equals", "not_equals", "in", "not_in", "AND", "OR"],
+    "crossStepReference": "Use sourceStep to reference fields from a previous step",
+    "rules": [
+      {
+        "id": "show_speeding_subtype",
+        "trigger": { "field": "fineCategory", "operator": "equals", "value": "SPEEDING" },
+        "action": "show",
+        "targets": ["speedingSubtype"]
+      },
+      {
+        "id": "show_parking_subtype",
+        "trigger": { "field": "fineCategory", "operator": "equals", "value": "PARKING" },
+        "action": "show",
+        "targets": ["parkingSubtype"]
+      },
+      {
+        "id": "show_real_driver",
+        "trigger": { "field": "wasDriverAtTime", "operator": "equals", "value": "no" },
+        "action": "show",
+        "targets": ["realDriverName"]
+      },
+      {
+        "id": "show_evidence_types",
+        "trigger": { "field": "hasEvidence", "operator": "in", "value": ["yes", "partial"] },
+        "action": "show",
+        "targets": ["evidenceTypes"]
+      },
+      {
+        "id": "show_defect_types",
+        "trigger": { "field": "fineHasDefects", "operator": "equals", "value": "yes" },
+        "action": "show",
+        "targets": ["fineDefectTypes"]
+      },
+      {
+        "id": "show_speed_fields",
+        "trigger": { "field": "fineCategory", "operator": "equals", "value": "SPEEDING", "sourceStep": 1 },
+        "action": "show",
+        "targets": ["speedRegistered", "speedLimit", "radarCalibration", "speedSignageVisible"]
+      },
+      {
+        "id": "show_parking_fields",
+        "trigger": { "field": "fineCategory", "operator": "equals", "value": "PARKING", "sourceStep": 1 },
+        "action": "show",
+        "targets": ["parkingSignageVisible", "parkingEmergency"]
+      },
+      {
+        "id": "show_emergency_detail",
+        "trigger": {
+          "operator": "AND",
+          "conditions": [
+            { "field": "fineCategory",    "operator": "equals", "value": "PARKING" },
+            { "field": "parkingEmergency","operator": "equals", "value": "yes" }
+          ]
+        },
+        "action": "show",
+        "targets": ["parkingEmergencyDetail"]
+      }
+    ]
+  },
+
+  "defenseEngine": {
+    "description": "Scoring rules that map WizardState to ranked defense suggestions",
+    "defenses": [
+      {
+        "id": "wrong_plate",
+        "title": "Matrícula errada no auto",
+        "legalBasis": "Art. 58.º, al. b) RGCO",
+        "applicableWhen": { "field": "fineDefectTypes", "operator": "contains", "value": "wrong_plate" },
+        "score": 95
+      },
+      {
+        "id": "no_prior_hearing",
+        "title": "Violação do direito de audição prévia",
+        "legalBasis": "Art. 50.º RGCO; Art. 32.º CRP",
+        "applicableWhen": { "field": "fineDefectTypes", "operator": "contains", "value": "no_hearing" },
+        "score": 92
+      },
+      {
+        "id": "disability_badge",
+        "title": "Cartão de deficiência — estacionamento isento",
+        "legalBasis": "DL 307/2003; Art. 117.º CE",
+        "applicableWhen": {
+          "operator": "AND",
+          "conditions": [
+            { "field": "fineCategory",  "operator": "equals",   "value": "PARKING", "sourceStep": 1 },
+            { "field": "evidenceTypes", "operator": "contains", "value": "disability_card" }
+          ]
+        },
+        "score": 92
+      },
+      {
+        "id": "radar_no_calibration",
+        "title": "Radar sem verificação metrológica válida",
+        "legalBasis": "DL 291/90; Portaria 1504/2008",
+        "applicableWhen": {
+          "operator": "AND",
+          "conditions": [
+            { "field": "fineCategory",     "operator": "equals", "value": "SPEEDING", "sourceStep": 1 },
+            { "field": "radarCalibration", "operator": "in",     "value": ["no", "unknown"] }
+          ]
+        },
+        "score": { "no": 90, "unknown": 65 }
+      },
+      {
+        "id": "prescription",
+        "title": "Prescrição do procedimento",
+        "legalBasis": "Art. 27.º e 28.º RGCO",
+        "applicableWhen": {
+          "operator": "OR",
+          "conditions": [
+            { "field": "fineDefectTypes", "operator": "contains",    "value": "prescription" },
+            { "field": "fineDate",        "operator": "older_than",  "value": "18_months" }
+          ]
+        },
+        "score": { "older_than_2y": 95, "18_to_24m": 60 }
+      },
+      {
+        "id": "in_dubio",
+        "title": "Falta de prova — in dubio pro reo",
+        "legalBasis": "Art. 32.º CRP; Art. 50.º RGCO",
+        "applicableWhen": "always",
+        "score": {
+          "missing_evidence_defect": 88,
+          "no_evidence": 70,
+          "default": 45
+        }
+      }
+    ]
+  },
+
+  "uxRecommendations": {
+    "general": [
+      "Nunca mostrar mais do que 1 pergunta por ecrã em mobile",
+      "Usar auto-advance no Step 1 para reduzir friction — o utilizador clica e avança imediatamente",
+      "Mostrar barra de progresso fixa no topo — o utilizador sabe sempre onde está",
+      "Permitir clicar em passos anteriores na barra de progresso para editar",
+      "Usar animações de slide (esquerda/direita) para comunicar direção de navegação",
+      "Mostrar número de fundamentos selecionados em tempo real (Step 4)",
+      "Pre-fill de dados da sessão no Step 5 para eliminar re-digitação",
+      "No Step 6, mostrar 'força da defesa' calculada antes do botão de pagamento"
+    ],
+    "copy": {
+      "nextButton":       "Seguinte",
+      "prevButton":       "Anterior",
+      "generateButton":   "Gerar Documento — €4,99",
+      "loadingGenerate":  "A gerar documento...",
+      "progressLabel":    "Passo {{current}} de {{total}} — {{stepLabel}}",
+      "requiredMark":     "*",
+      "optionalLabel":    "(opcional)",
+      "legalDisclaimer":  "Os documentos gerados são minutas de apoio ao cidadão. Não constituem aconselhamento jurídico personalizado.",
+      "defenseStrong":    "Argumento forte",
+      "defenseMedium":    "Argumento moderado",
+      "defenseWeak":      "Argumento de suporte",
+      "recommended":      "Recomendado",
+      "selectAtLeastOne": "Seleciona pelo menos um fundamento legal para a contestação",
+      "noGroundsFound":   "Não foi possível sugerir fundamentos com as respostas fornecidas. Usa as notas adicionais.",
+      "prefilledFromAccount": "Dados pré-preenchidos com a tua conta. Confirma e completa.",
+      "securityNote":     "Os teus dados são usados exclusivamente para gerar o documento. Não os partilhamos com terceiros.",
+      "consentLabel":     "Autorizo o tratamento dos meus dados pessoais para geração do documento",
+      "agreesWithFineWarning": "Se concordas plenamente, a contestação tem menor probabilidade de êxito. Podes ainda pedir redução ao mínimo legal (art. 18.º RGCO).",
+      "identifyDriverTip": "Identificar o condutor real pode levar à tua absolvição imediata ao abrigo do art. 134.º do Código da Estrada.",
+      "calibrationTip":   "A ausência de certificado de calibração pode invalidar a medição do radar.",
+      "caseStrengthLabels": {
+        "strong": "Defesa forte",
+        "medium": "Defesa moderada",
+        "weak":   "Defesa de suporte"
+      }
+    },
+    "errorHandling": [
+      "Mostrar erros inline imediatamente abaixo do campo com problema",
+      "Fazer scroll automático até ao primeiro erro quando utilizador tenta avançar",
+      "Usar cor vermelha (#EF4444) e ícone de alerta para erros",
+      "Usar cor verde (#22C55E) e checkmark para campos válidos (especialmente NIF)",
+      "Não mostrar todos os erros ao mesmo tempo — apenas o campo em foco"
+    ],
+    "accessibility": [
+      "Todos os campos com labels visíveis (não só placeholder)",
+      "aria-required em campos obrigatórios",
+      "aria-invalid e aria-describedby para campos com erro",
+      "Tamanho mínimo de toque: 44×44px em mobile (botões de opção)",
+      "Contraste mínimo de 4.5:1 para texto normal",
+      "Tab order lógico — nunca saltar elementos interativos"
+    ]
+  }
+}

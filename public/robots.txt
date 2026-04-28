@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Block private routes
+Disallow: /dashboard
+Disallow: /wizard
+Disallow: /api/
+Disallow: /checkout/
+Disallow: /documents/
+Disallow: /auth/
+
+Sitemap: https://conestaatuamulta.pt/sitemap.xml
